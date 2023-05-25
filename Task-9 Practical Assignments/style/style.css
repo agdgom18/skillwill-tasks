@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Task-1 */
+.task-1,
+.task-2 {
+  margin-bottom: 50px;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.modal-window {
+  color: white;
+  background-color: #a52a2a;
+  max-width: 400px;
+  text-align: center;
+  min-height: 300px;
+  margin-top: 20px;
+  display: none;
+}
+
+.pr {
+  padding-top: 11%;
+}
+.show {
+  display: block;
+}
+.layout {
+  align-items: center;
+  justify-content: center;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.5s;
+  z-index: 4;
+}
+.show-modal {
+  position: relative;
+  z-index: 50;
+}
+.bg {
+  display: flex;
+  background-color: rgb(0, 0, 0, 0.7);
+  transition: all 0.4s;
+}
+/* Task-2 */
+.text-input {
+  width: 50%;
+  padding: 20px 20px;
+  background-color: #dddddd;
+}
