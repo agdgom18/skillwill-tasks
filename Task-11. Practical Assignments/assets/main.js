@@ -1,4 +1,4 @@
-Task - 1;
+// Task - 1;
 function expo(a, b, c) {
   if (b === 0) return 1;
   return a * expo(a, b - 1);
