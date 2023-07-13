@@ -1,3 +1,53 @@
 .app {
   text-align: center;
 }
+
+.title {
+  margin: 10px;
+}
+body {
+  background-color: rgba(7, 7, 160, 0.499);
+  color: white;
+}
+.list-wrapper {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+ul li {
+  padding: 10px 20px;
+  list-style: none;
+  font-size: 20px;
+}
+
+ul {
+  border: 1px solid rgba(15, 1, 1, 0.599);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 10px;
+  color: white;
+}
+button:hover {
+  background-color: blueviolet;
+}
+
+input {
+  padding: 15px 10px;
+  border-radius: 8px;
+  border: none;
+  font-size: 15px;
+}
+input:active {
+  border: none;
+}
